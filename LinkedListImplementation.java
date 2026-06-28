@@ -51,7 +51,33 @@ int peek(){
     }
 }
 
+void Display(){
+    if(size ==0){
+     System.out.println("empty que");
+    }
+   else{ node t = front ;
+    while (t != null){
+        System.out.print(t.val+" ");
+        t=t.next ;
+    }
+   System.out.println("");
+}}
+
 }
 public class LinkedListImplementation{
+    public static void main(String[] args) {
+        
+  
+ QueL obj = new QueL();
 
+ obj.Add(15);
+   obj.Display();
+ obj.Remove();
+//  obj.Remove();
+  obj.Add(15);
+  obj.Add(20);
+  obj.Add(25);
+  obj.Add(15);
+   obj.Display();
+}
 }
