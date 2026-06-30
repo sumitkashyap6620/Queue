@@ -53,8 +53,13 @@ public class CircularQueueArray{
      q1.Add(15);
      System.out.println(q1.peak()); 
       q1.Remove();
-     
-      q1.Remove();
-
+     System.out.println(q1.size);
+      q1.Add(15);
+      q1.Add(15);
+      q1.Add(15);
+      q1.Add(15);
+      q1.Add(15);
+      q1.Add(15);
+  System.out.println(q1.size);
     }
 }
