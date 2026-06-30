@@ -43,12 +43,18 @@ class QueC{
         else return arr[front];
      }
      void Display(){
-        
+
      }
 }
 
 public class CircularQueueArray{
-    public static void main(String args[]){
+    public static void main(String args[])throws Exception{
      QueC q1 = new QueC();
+     q1.Add(15);
+     System.out.println(q1.peak()); 
+      q1.Remove();
+     
+      q1.Remove();
+
     }
 }
