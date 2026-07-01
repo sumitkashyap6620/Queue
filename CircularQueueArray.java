@@ -1,3 +1,7 @@
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 class QueC{
     int arr [] = new int[7];
     int front = -1 ;
@@ -79,6 +83,7 @@ class QueC{
 
 public class CircularQueueArray{
     public static void main(String args[])throws Exception{
+      Queue q = new LinkedList();
      QueC q1 = new QueC();
      q1.Add(10);
      q1.Add(9);
