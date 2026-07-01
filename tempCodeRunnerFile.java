@@ -1,1 +1,1 @@
- obj.Remove();
+ q1.Add(100);
